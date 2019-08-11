@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 390px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 390px;
+  margin: 0 auto 100px;
+  padding: 35px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+@media (max-width: 760px) {
+    .login-page {
+        width: 360px;
+      }
+      .form {
+        max-width: 360px;
+      } 
+  }
+  @media (max-width: 360px) {
+    .login-page {
+        width: 300px;
+      }
+      .form {
+        max-width: 300px;
+        padding: 25px;
+      } 
+  }
+.input-form  {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(45, 49, 45);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: rgb(13, 14, 13);
+}
+
+body {
+  background: #4fe0eb; /* fallback for old browsers */
+  background: linear-gradient(to left, #52b8b0, rgb(111, 194, 190));
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+#email {
+  margin-top: 5px;
+}
+
+.form-inline p {
+  margin-top: 4px;
+  margin-bottom: 18px;
+  color: red;
+  font-family: monospace;
+  font-style: italic; 
+}
