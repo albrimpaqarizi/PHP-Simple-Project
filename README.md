@@ -11,7 +11,7 @@
    <li>Import database mydb.sql (available inside zip package)</li>
    <li>Open browser</li>
   <li>In URL write ( http://localhost/simple )</li>
-  <li>#Enter and you are HOME PAGE</li>
+  <li>#Enter and you are in HOME PAGE</li>
  </ol>
  
 # For User 
